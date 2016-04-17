@@ -1,0 +1,569 @@
+/*width 960px*/
+@media only screen and (max-width: 960px) {
+  .pagewrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slider__button {
+    margin-left: 707px;
+  }
+
+  .about__1 {
+    margin-right: 16px;
+  }
+
+  .about__2 {
+    margin-right: 7px;
+  }
+  .about__3 {
+    margin-left: 27px;
+  }
+
+  .resent {
+    margin-left: 39px;
+  }
+
+  section.logo {
+    margin-left: 85px;
+  }
+
+  .columns {
+    padding-left: 15px;
+  }
+}
+/*width 960px*/
+
+/*width 768px*/
+@media only screen and (max-width: 768px) {
+
+  .site--logo {
+    float: none;
+    margin-left: 23px;
+  }
+
+  .nav-menu {
+    margin-left: -23px;
+    margin-top: 51px;
+  }
+
+  .header {
+    overflow: visible;
+  }
+
+  section.slider {
+    margin-top: 102px;
+  }
+
+  .slider h3 {
+    width: 360px;
+    height: 28px;
+    overflow: hidden;
+  }
+
+  .slider__item--textbox {
+    margin-left: 23px;
+    width: 40%;
+  }
+
+  .slider__item--textbox--describe {
+    width: 375px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .slider__iphone {
+    margin-right: 250px;
+  }
+
+  .slider__button {
+    margin-left: 567px;
+    margin-top: 50px;
+  }
+
+  .aboutbox__textbox h1 {
+    font-size: 24px;
+  }
+
+  .aboutbox__img2 {
+    background-position: 1px 0px;
+  }
+
+  .aboutbox__img3 {
+    background-position: 1px 0px;
+  }
+
+  .about__1 {
+    width: 25%;
+    margin-right: 8px;
+  }
+
+  .about__2 {
+    width: 25%;
+    margin-right: 7px;
+  }
+
+  .about__3 {
+    width: 25%;
+    margin-left: -2px;
+  }
+
+  .aboutbox__textbox--desc {
+    height: 143px;
+    overflow: hidden;
+  }
+
+  .aboutbox__readmore {
+    margin-left: 150px;
+  }
+
+  .stars__box {
+    width: 35%;
+    margin-left: 23px;
+  }
+
+  .stars__box--description p {
+    height: 148px;
+    overflow: hidden;
+  }
+
+  .button {
+    margin-left: 137px;
+    margin-top: 75px;
+}
+
+  .resent__item--desc h3 {
+    height: 17px;
+    overflow: hidden;
+}
+
+  .resent {
+    width: 34%;
+}
+
+  .resent__readmore {
+    margin-left: 240px;
+}
+
+  section.logo {
+    margin-left: 23px;
+    border: none;
+  }
+
+  .logo__box--2 {
+    margin-left: 50px;
+  }
+
+  .logo__box--3 {
+    margin-left: 50px;
+  }
+
+  .logo__box--4 {
+    margin-left: 50px;
+  }
+
+  .logo__box--5 {
+    margin-left: 50px;
+  }
+
+  .logo__box--6 {
+    margin-left: 44px;
+  }
+
+  .columns__box--comments {
+    width: 23%;
+    height: 206px;
+    overflow: hidden;
+    margin-left: 27px;
+  }
+
+  .columns__box--pigbuller {
+    width: 23%;
+    height: 207px;
+    overflow: hidden;
+    float: left;
+    margin-top: 94px;
+  }
+
+  .columns__box--categories {
+    width: 23%;
+    height: 206px;
+    overflow: hidden;
+  }
+
+  .footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer__menu {
+    margin-left: 23px;
+  }
+
+  .design {
+    margin-top: 122px;
+    margin-left: 0px;
+  }
+}
+/*width 768px*/
+
+/*width 480px*/
+@media only screen and (max-width: 480px) {
+
+  /*.pagewrap {
+    width: 480px;
+  }*/
+
+  .header {
+    width: 100%;
+  }
+
+  .site--logo {
+    margin-left: 33%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  /*menu*/
+  .header__menu {
+    display: block;
+  	position: relative;
+  	width: 244px;
+  	margin: 18px auto;
+  	border: 1px solid transparent;
+  	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  	z-index: 2;
+}
+
+  .header__menu li {
+  	border-bottom: 1px solid #35273d;
+  	border-top : 1px solid #695272;
+}
+
+  .header__menu a {
+    font-size: 24px;
+    text-align: center;
+    line-height: 51px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "league_gothicregular";
+    display: block;
+}
+
+  .header__menu li {
+  	position: relative;
+  	display: block
+  }
+
+  .absolute-menu {
+  	width: 244px;
+  	position: absolute;
+  	top: 100%;
+  	left: -1px;
+  	display: none;
+  	border: 1px solid #000;
+  	border-top: 1px solid #35273d;
+  }
+
+  .header__menu:hover {
+  	background-color: rgba(54, 41, 62, 0.8);
+  	border: 1px solid #000;
+  }
+
+  .header__menu:hover ul {
+  	overflow: hidden;
+  	background-color: rgba(54, 41, 62, 0.8);
+  	display: block;
+  	top: 100%;
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  }
+
+  .menu__home a {
+    border-top: none;
+    line-height: 51px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .menu__home:after {
+  	position: absolute;
+  	top: 41px;
+  	left: 98px;
+  	border: 1px solid #edbfff;
+  	width: 45px;
+  }
+
+  .header__menu a:hover {
+    border-bottom: 2px solid #edbfff;
+    background-color: rgba(34, 26, 39, 0.8);
+  }
+
+  .absolute-menu a:hover {
+    margin-bottom: -2px;
+  }
+
+  .header__menu .menu__home a:hover {
+  	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  }
+  /*menu*/
+
+  section.slider {
+    margin-top: 35px;
+    height: 243px;
+  }
+
+  .slider__width {
+    width: 100%;
+  }
+
+  .slider__item--textbox--describe {
+    display: none;
+  }
+
+  .slider h1 {
+    font-size: 36px;
+  }
+
+  .slider h3 {
+    font-size: 18px;
+    width: 116%;
+    height: 18px;
+  }
+
+  .slider__iphone {
+    float: none;
+    margin-right: 0px;
+  }
+
+  .slider__iphone img {
+    width: 42%;
+    margin-top: -22px;
+    margin-left: 35px;
+  }
+
+  .slider__button {
+    margin-left: 185px;
+    margin-top: 29px;
+    padding-bottom: 80px;
+  }
+
+  .about__1 {
+    float: none;
+    width: 46%;
+  }
+
+  .aboutbox__textbox--desc {
+    height: 100%;
+  }
+
+  .aboutbox__readmore {
+    margin-left: 374px;
+  }
+
+  .about__2 {
+    margin-top: -57px;
+    float: none;
+    width: 46%;
+  }
+
+  .about__3 {
+    margin-top: -57px;
+    float: none;
+    width: 46%;
+  }
+
+  .stars__back{
+    width: 100%;
+  }
+
+  .stars__box {
+    float: none;
+    width: 85%;
+    height: 230px;
+    background-position: 23px 0px;
+  }
+
+  .stars__box--head {
+    padding-top: 15px;
+  }
+
+  .button {
+    margin-left: 153px;
+    margin-top: 52px;
+  }
+
+  .resent {
+    width: 72%;
+    margin-top: 80px;
+    margin-left: 80px;
+  }
+
+  .logo__box {
+    width: 78%;
+  }
+
+  .logo__box--4 {
+    margin-left: 0px;
+    margin-top: 22px;
+  }
+
+  .logo__box--5 {
+    margin-top: 22px;
+  }
+
+  .logo__box--6 {
+    margin-top: 22px;
+    margin-left: 23px;
+  }
+
+  .columns {
+    padding-bottom: 15px;
+  }
+
+  .columns__box {
+    width: 100%;
+  }
+
+  .columns__box--pigbuller {
+    width: 97%;
+    margin-top: 60px;
+  }
+
+  .columns__box--comments {
+    width: 97%;
+    margin-left: 1px;
+    margin-top: 37px;
+  }
+
+  .columns__box--categories {
+    width: 97%;
+    margin-left: 1px;
+    margin-top: 11px;
+  }
+
+  .footer__menu {
+    margin-left: 18px;
+  }
+
+  .footer__menu li {
+    padding-right: 23px;
+  }
+
+  .design {
+    margin-top: 109px;
+    margin-left: -310px;
+  }
+}
+/*width 480px*/
+
+/*width 320px*/
+@media only screen and (min-width: 320px)
+                  and (max-width: 420px){
+
+  .site--logo {
+    margin-left: 82px;
+  }
+
+  .slider__iphone {
+    display: none;
+  }
+
+  .slider__item--textbox {
+    width: 100%;
+    margin-left: 46px;
+  }
+
+  section.slider {
+    background: none;
+    margin-top: -30px;
+  }
+
+  .slider__button {
+    margin-left: 115px;
+    margin-top: -27px;
+  }
+
+  .slider h3 {
+    width: 68%;
+  }
+
+  .about--back {
+    padding-left: 15px;
+  }
+
+  .aboutbox__textbox--desc {
+    height: 70px;
+    width: 48%;
+  }
+
+  .aboutbox__readmore {
+    margin-left: 204px;
+  }
+
+  .button {
+    margin-left: 96px;
+    margin-top: 30px;
+  }
+
+  .resent {
+    width: 100%;
+    margin-top: 103px;
+    margin-left: 20px;
+  }
+
+  .resent__item--desc h2 {
+    width: 68%;
+    height: 15px;
+    overflow: hidden;
+  }
+
+  .resent__readmore {
+    margin-left: 185px;
+  }
+
+  .stars__back {
+    padding-bottom: 63px;
+  }
+
+  .logo__box--3 {
+    margin-left: -1px;
+    margin-top: 34px;
+  }
+
+  .logo__box--4 {
+    margin-left: 62px;
+    margin-top: 35px;
+  }
+
+  .logo__box--5 {
+    margin-top: 22px;
+    margin-left: 0px;
+  }
+
+  .logo__box--6 {
+    margin-top: 26px;
+    margin-left: 11px;
+  }
+
+  .columns {
+    display: none;
+  }
+
+  .footer__menu {
+    display: none;
+  }
+
+  .design {
+    margin-top: 32px;
+    margin-left: 93px;
+    padding-bottom: 40px;
+  }
+
+}
+
+/*width 320px*/
